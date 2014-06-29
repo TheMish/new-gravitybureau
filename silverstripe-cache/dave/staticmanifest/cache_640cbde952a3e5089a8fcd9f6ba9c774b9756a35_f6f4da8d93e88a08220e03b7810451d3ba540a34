@@ -1,0 +1,1 @@
+a:1:{s:7:"Project";a:2:{s:2:"db";a:2:{s:6:"access";i:345;s:5:"value";a:1:{s:5:"Title";s:4:"Text";}}s:7:"has_one";a:2:{s:6:"access";i:345;s:5:"value";a:1:{s:6:"Client";s:6:"Client";}}}}

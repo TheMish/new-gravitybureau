@@ -1,0 +1,1 @@
+a:1:{s:4:"Page";a:3:{s:2:"db";a:2:{s:6:"access";i:344;s:5:"value";a:2:{s:11:"AccentColor";s:10:"Varchar(6)";s:13:"BannerCaption";s:4:"Text";}}s:7:"has_one";a:2:{s:6:"access";i:344;s:5:"value";a:1:{s:11:"BannerImage";s:5:"Image";}}s:8:"has_many";a:2:{s:6:"access";i:344;s:5:"value";a:0:{}}}}

@@ -1,0 +1,1 @@
+a:1:{s:7:"MyAdmin";a:3:{s:14:"managed_models";a:2:{s:6:"access";i:344;s:5:"value";a:2:{i:0;s:7:"Product";i:1;s:8:"Category";}}s:11:"url_segment";a:2:{s:6:"access";i:344;s:5:"value";s:8:"products";}s:10:"menu_title";a:2:{s:6:"access";i:344;s:5:"value";s:16:"My Product Admin";}}}

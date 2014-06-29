@@ -1,0 +1,1 @@
+a:1:{s:20:"BlogEntry_Controller";a:1:{s:15:"allowed_actions";a:2:{s:6:"access";i:344;s:5:"value";a:4:{i:0;s:5:"index";i:1;s:13:"unpublishPost";i:2;s:12:"PageComments";i:3;s:10:"SearchForm";}}}}

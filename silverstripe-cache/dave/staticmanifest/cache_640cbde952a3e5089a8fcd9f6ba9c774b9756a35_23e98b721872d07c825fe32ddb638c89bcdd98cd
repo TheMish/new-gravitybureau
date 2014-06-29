@@ -1,0 +1,1 @@
+a:1:{s:11:"ClientAdmin";a:3:{s:14:"managed_models";a:2:{s:6:"access";i:345;s:5:"value";a:2:{i:0;s:6:"Client";i:1;s:7:"Project";}}s:11:"url_segment";a:2:{s:6:"access";i:345;s:5:"value";s:7:"clients";}s:10:"menu_title";a:2:{s:6:"access";i:345;s:5:"value";s:7:"Clients";}}}

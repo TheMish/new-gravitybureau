@@ -1,0 +1,1 @@
+a:1:{s:9:"StaffPage";a:2:{s:2:"db";a:2:{s:6:"access";i:344;s:5:"value";a:3:{s:9:"StaffName";s:7:"Varchar";s:8:"JobTitle";s:7:"Varchar";s:8:"PartTime";s:7:"Varchar";}}s:7:"has_one";a:2:{s:6:"access";i:344;s:5:"value";a:2:{s:10:"StaffImage";s:5:"Image";s:13:"StaffImageAlt";s:5:"Image";}}}}

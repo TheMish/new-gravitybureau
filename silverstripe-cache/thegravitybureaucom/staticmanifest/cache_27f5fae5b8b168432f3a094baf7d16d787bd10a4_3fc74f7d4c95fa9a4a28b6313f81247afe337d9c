@@ -1,0 +1,1 @@
+a:1:{s:12:"CategoryPage";a:3:{s:7:"has_one";a:2:{s:6:"access";i:344;s:5:"value";a:1:{s:14:"CategoryBanner";s:5:"Image";}}s:9:"many_many";a:2:{s:6:"access";i:344;s:5:"value";a:0:{}}s:16:"allowed_children";a:2:{s:6:"access";i:344;s:5:"value";a:1:{s:4:"none";s:4:"none";}}}}

@@ -1,0 +1,450 @@
+/** ----------------------------------------------------------
+ *
+ * Contains the generic theme typography styles
+ *
+ *    Include your notes or table of contents here
+ *
+ *    Include color hex's or values of your grid
+ *      #ece74a             - yellow
+ *		#181838				- blue
+ *      5px Vertical grid   - based on multiples of 5px, eg 10px, 15px, 20px, 25px...
+ *
+ *    @author Your Name <hamish_gray@hotmail.com>
+ *
+ * ------------------------------------------------------- */
+
+
+
+
+/*	========================================================
+	Custom Fonts
+	========================================================*/
+
+  /* add your own custom fonts here */
+	
+	@font-face {
+	  font-family: 'WebSymbolsRegular';
+	  src: url('../webfonts/websymbols-regular-webfont.eot');
+	  src: url('../webfonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+	  url('../webfonts/websymbols-regular-webfont.woff') format('woff'), 
+	  url('../webfonts/websymbols-regular-webfont.ttf') format('truetype'), 
+	  url('../webfonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+		
+  	
+	
+
+	@font-face {
+	  font-family: 'Chronicle Black';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-Black.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Black.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Black.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Black Italic';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-BlackItalic.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-BlackItalic.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-BlackItalic.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Bold';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-Bold.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Bold.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Bold.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Bold Italic';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-BoldItal.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-BoldItal.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-BoldItal.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Semibold';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-Semibold.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Semibold.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Semibold.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Semibold Italic';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-SemiboldItal.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-SemiboldItal.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-SemiboldItal.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Roman';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-Roman.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Roman.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Roman.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Chronicle Roman Italic';
+	  src: 	url('../webfonts/Chronicle/ChronicleDisp-Italic.woff') format('woff'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Italic.ttf')  format('truetype'), 
+	  		url('../webfonts/Chronicle/ChronicleDisp-Italic.otf') format('opentype'); }
+
+
+	
+	
+
+	@font-face {
+	  font-family: 'Whitney Bold';
+	  src: 	url('../webfonts/Whitney/Whitney-Bold.woff') format('woff'), 
+	  		url('../webfonts/Whitney/Whitney-Bold.ttf')  format('truetype'), 
+	  		url('../webfonts/Whitney/Whitney-Bold.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Whitney Semibold';
+	  src: 	url('../webfonts/Whitney/Whitney-Semibold.woff') format('woff'), 
+	  		url('../webfonts/Whitney/Whitney-Semibold.ttf')  format('truetype'), 
+	  		url('../webfonts/Whitney/Whitney-Semibold.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Whitney Medium';
+	  src: 	url('../webfonts/Whitney/Whitney-Medium.woff') format('woff'), 
+	  		url('../webfonts/Whitney/Whitney-Medium.ttf')  format('truetype'), 
+	  		url('../webfonts/Whitney/Whitney-Medium.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Whitney Book';
+	  src: 	url('../webfonts/Whitney/Whitney-Book.woff') format('woff'), 
+	  		url('../webfonts/Whitney/Whitney-Book.ttf')  format('truetype'), 
+	  		url('../webfonts/Whitney/Whitney-Book.otf') format('opentype'); }
+	  		
+	@font-face {
+	  font-family: 'Whitney Light';
+	  src: 	url('../webfonts/Whitney/Whitney-Light.woff') format('woff'), 
+	  		url('../webfonts/Whitney/Whitney-Light.ttf')  format('truetype'), 
+	  		url('../webfonts/Whitney/Whitney-Light.otf') format('opentype'); }
+	  		
+
+
+
+
+/*	========================================================
+	Base Typography
+	========================================================*/
+	
+	
+	
+
+
+html { 
+	-webkit-text-size-adjust:none; 
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-weight: normal; }
+
+/* These are the default styles for the Simple theme */
+body {
+    font-size: 19px; /* This overrides the browsers default font size */
+    color: #505050;
+	font-family:'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; }
+body.mceContentBody { font-size: 19px !important; }
+	
+  body a { text-decoration: none; } /* this removes the underline from all links */
+  body a:link { -webkit-tap-highlight-color: #b80000 } /* this sets the highlight color when links are tapped on Safari (browser) on iPhone */
+
+a { transition: 0.2s; -moz-transition: 0.2s; -webkit-transition: 0.2s; -o-transition: 0.2s; display:inline-block; }
+.blogEntry a { display:block; }
+
+.dark a { color:#fff; }
+.dark a:hover { color:#ece74a; }
+
+::selection {
+	background: #1a1a1a; color: #ece74a;
+	}
+::-moz-selection {
+	background: #1a1a1a; color: #ece74a;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-family:'Whitney Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family:'Chronicle Semibold Italic', Georgia, Times, "Times New Roman", serif; 
+	font-weight: normal;
+	font-size: 4em; 
+	margin: .36em 0;
+	line-height:0.8em;
+	text-transform:none;
+	color:rgb(0,0,0);
+	color:rgba(0,0,0,0.85);
+	padding-bottom:30px;
+	border-bottom:1px solid rgba(0,0,0,0.15);
+}
+
+h2 {
+	font-family:'Chronicle Roman', Georgia, Times, "Times New Roman", serif; 
+	margin: .75em 0 .25em;
+	letter-spacing:0.03em;
+	font-size: 2.6em; 
+	line-height: 48px; 
+	color:rgb(0,0,0);
+	color:rgba(0,0,0,0.85);
+}
+
+h3 {
+	font-size: 1.7em; 
+	margin: 1em 0 .5em;
+	letter-spacing:0.02em;
+	line-height: 38px; 
+}
+
+h4 {
+	font-size: 1em; 
+	letter-spacing:0.03em;
+	margin: 1.12em 0;
+	line-height: 1.4em; 
+	margin-bottom: 5px;
+}
+
+h5 {
+	font-family:'Whitney Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	letter-spacing:0.09em;
+	font-size: 0.8em; 
+	margin: 1.3em 0;
+	text-transform:uppercase;
+}
+
+h6 {
+	font-family:'Whitney Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-size: 0.63em; 
+	letter-spacing:0.12em;
+	line-height:1.5em;
+	text-transform:uppercase;
+	margin: 1em 0;
+}
+
+p {
+	font-size:1em;
+	margin: 0.8em 0;
+	line-height:1.6em;
+	max-width: 650px;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p { color: #4d4d4d;}
+
+
+
+strong { font-family: "Whitney Bold"; font-weight: normal; letter-spacing: 0; }
+
+
+
+
+/*	========================================================
+	Typography Class
+	========================================================*/
+
+
+
+a img:hover { border-bottom:0;}
+
+
+/* PARAGRAGHS */
+   .intro {
+		font-family:'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    	font-size: 1.8em;
+    	line-height: 40px;
+    	letter-spacing: 0.02em;
+    	margin-bottom: 20px;
+   }
+   .intro:before {
+	  content:url(../images/before-intro-arrow-blk.png);
+	  height:100px;
+	  position: absolute;
+	  left: 50%;
+      margin-left: -550px;
+	  opacity:0.2; filter:alpha(opacity=20);
+  }
+  
+  .PageDark  .intro:before {
+	  content:url(../images/before-intro-arrow-wht.png);
+  }
+  
+ em { font-style: italic; }
+
+::selection,
+::-moz-selection { /* Applies style to highlighted portion of a page */
+    background: #b80000;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* LINKS */
+  a, 
+  a.intro {
+    color: rgb(21,21,21);
+    color: rgba(0,0,0,0.7);
+    text-decoration: none;
+}
+  a:hover,
+  a:focus  { 
+    color:rgb(0,0,0);
+	color:rgba(0,0,0,0.85);
+  }
+
+  
+
+/* LIST STYLES
+
+ ul, 
+ ol,
+ dl { margin: 0 0 20px 25px; }
+ ul li { list-style:none; } 
+   li { margin-bottom: 5px; }
+-------------------------------------------- */
+
+
+/* TABLE STYLES
+-------------------------------------------- */
+
+ table {
+    border-collapse: collapse; /* borders are collapsed into a single border when possible */
+    border: 1px solid #d4d4d4;
+    border-spacing: 0; /* The border-spacing property sets the distance between the borders of adjacent cells - acts as a backup to border-collapse: collapse */
+    margin: 0 0 10px;
+    text-align: left;
+}
+   table tr:nth-child(even) {
+      background-color: #ededed
+  }
+   table tr.even,
+   table th,
+   thead td {
+      background-color: #ededed
+  }
+   table td,
+   table th {
+      padding: 2px 5px;
+      border: 1px solid #d4d4d4;
+      vertical-align: top;
+  }
+   table th {
+      font-weight: bold;
+  }
+
+
+/* WYSIWYG EDITOR ALIGNMENT CLASSES 
+-------------------------------------------- */
+
+ .left {
+    text-align: left
+}
+ .center {
+    text-align: center
+}
+ .right {
+    text-align: right
+}
+
+
+/* BLOCKQUOTES
+-------------------------------------------- */
+
+ blockquote {
+  color: #979797;
+  display: block;
+  float: left;
+  width: 75%;
+  padding: 15px 5%;
+  clear: both;
+  border-bottom: 3px solid rgba(0,0,0,0.05);
+  border-top: 3px solid rgba(0,0,0,0.05);
+  margin: 30px 0;
+  transition: 0.4s; -moz-transition: 0.4s; -webkit-transition: 0.4s; -o-transition: 0.4s;
+}
+blockquote:hover {color: #6c6c6c; padding:15px 9% 15px 0; }
+blockquote p {
+	font-size: 28px;
+	line-height: 36px;
+	margin: 0.8em 0;
+	margin-bottom: 0.8em !important;
+}
+ pre {
+  background: #F7F7F7;
+  border: 1px solid #E4E4E4;
+  font-family: Courier, monospace;
+  margin: 0 0 20px 0;
+  padding: 15px;
+  clear: both;
+}
+
+/* ADDRESS
+-------------------------------------------- */
+
+address {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* CUSTOM
+-------------------------------------------- */
+
+
+
+
+
+
+.textbackground { background-color: rgba(0,0,0,0.8); color: #ece74a; padding: 3px 0 0 8px; margin: 0; }
+.sans {font-family:'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.serif {font-family:'Chronicle Bold', Georgia, Times, "Times New Roman", serif;}
+h3.serif {font-family:'Chronicle Semibold', Georgia, Times, "Times New Roman", serif;}
+h6 .serif {font-family:'Chronicle Black', Georgia, Times, "Times New Roman", serif;}
+
+.title-large { font-family:'Chronicle Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0.75em 0; font-size: 3.4em; line-height: 60px; color:rgba(0,0,0,0.85); max-width: 100%; }
+.title-med { font-family: 'Chronicle Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0.5em 0; font-size: 1.7em; line-height: 42px; color:rgba(0,0,0,0.85); }
+.title-small { font-family:'Whitney Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:1.25em 0; font-size: 3.6em; line-height: 48px; color:rgba(0,0,0,0.85); }
+
+.title-number { font-family: 'Chronicle Roman Italic', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0.5em 0; font-size: 2.4em; line-height: 42px;color:rgba(0,0,0,0.85); }
+
+.title-wrap { padding: 40px 0; }
+
+
+.title-number-of {
+	position: relative;
+	width: 140px;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	height: 100px;
+}
+.title-number-of h2 { font-family: 'Chronicle Semibold Italic'; border: 0; font-size: 50px; float: left;}
+.title-number-of h3 { font-family: 'Chronicle Semibold Italic'; float: left; margin-top: 66px; font-size: 32px; color: rgba(0,0,0,0.85);}
+.title-number-of h5 { font-family: 'Chronicle Semibold Italic'; float: left; margin-top: 64px; color: rgba(0,0,0,0.85); text-transform: lowercase;}
+
+.col-2 { -webkit-column-count: 2; -webkit-column-gap: 80px; -moz-column-count: 2; -moz-column-gap: 80px; }
+.col-2 p { margin: 0 0 0.8em 0; }
+
+
+
+
+
+

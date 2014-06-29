@@ -1,0 +1,1 @@
+a:1:{s:8:"Category";a:2:{s:2:"db";a:2:{s:6:"access";i:344;s:5:"value";a:1:{s:5:"Title";s:4:"Text";}}s:8:"has_many";a:2:{s:6:"access";i:344;s:5:"value";a:1:{s:8:"Products";s:7:"Product";}}}}

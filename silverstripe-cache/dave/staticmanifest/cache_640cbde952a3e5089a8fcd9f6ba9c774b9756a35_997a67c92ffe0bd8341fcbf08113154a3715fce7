@@ -1,0 +1,1 @@
+a:1:{s:8:"HomePage";a:2:{s:4:"icon";a:2:{s:6:"access";i:345;s:5:"value";s:59:"framework/docs/en/tutorials/_images/treeicons/home-file.gif";}s:8:"has_many";a:2:{s:6:"access";i:345;s:5:"value";a:1:{s:6:"Slides";s:9:"HomeSlide";}}}}

@@ -1,0 +1,1 @@
+a:3:{s:7:"classes";a:2:{i:0;a:3:{s:9:"className";s:10:"BlogHolder";s:7:"extends";a:1:{i:0;s:8:"BlogTree";}s:10:"interfaces";a:1:{i:0;s:18:"PermissionProvider";}}i:1;a:2:{s:9:"className";s:21:"BlogHolder_Controller";s:7:"extends";a:1:{i:0;s:19:"BlogTree_Controller";}}}s:10:"interfaces";a:0:{}s:9:"namespace";s:0:"";}

@@ -1,0 +1,1 @@
+a:1:{s:20:"BlogManagementWidget";a:3:{s:5:"title";a:2:{s:6:"access";i:344;s:5:"value";s:15:"Blog Management";}s:8:"cmsTitle";a:2:{s:6:"access";i:344;s:5:"value";s:15:"Blog Management";}s:11:"description";a:2:{s:6:"access";i:344;s:5:"value";s:94:"Provide a number of links useful for administering a blog. Only shown if the user is an admin.";}}}
